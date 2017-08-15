@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cadastrar Novo Usuário</title>
+</head>
+<body>
+	<h1>Cadastrar Novo Usuário</h1>
+	<form action="/MyLogin/CadastrarUsuarioServlet" method="post">
+		<table>
+		<tr>
+				<td>Nome</td>
+				<td><input type="text" name="nome" id="nome"
+					value="" /></td>
+			</tr>
+			<tr>
+				<td>Cpf</td>
+				<td><input type="number" name="cpf" id="cpf"
+					value="" /></td>
+			</tr>
+			<tr>
+				<td>Usuário</td>
+				<td><input type="text" name="usuario" id="usuario" value="" /></td>
+			</tr>
+			<tr>
+				<td>Senha</td>
+				<td><input type="password" name="senha" id="senha"
+					value="" /></td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="cadastrarBtn" value="Cadastrar"></td>
+				<td><input type="submit" name="cancelarBtn" value="Cancelar"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
